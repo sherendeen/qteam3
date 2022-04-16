@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QTeam3 Quiz App</string>
+    <string name="qteam_3_quiz_app">QTeam 3 Quiz App</string>
+    <string name="welcome">Welcome!</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="start">Start</string>
+</resources>
