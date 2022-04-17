@@ -1,0 +1,25 @@
+{
+  "questions": [
+    { "id": 1, "text": "question text 1" },
+    { "id": 2, "text": "question text 2" },
+    { "id": 3, "text": "question text 3" }
+  ],
+  "answers": [
+    { "id": 1, "body": "some answer text", "is_correct" : "false", "questionId": 1 },
+    { "id": 2, "body": "some answer text", "is_correct" : "false", "questionId": 1 },
+    { "id": 3, "body": "some answer text", "is_correct" : "false", "questionId": 1 },
+    { "id": 4, "body": "some answer text", "is_correct" : "true", "questionId": 1 },
+     { "id": 5, "body": "some answer text", "is_correct" : "false", "questionId": 2 },
+    { "id": 6, "body": "some answer text", "is_correct" : "false", "questionId": 2 },
+    { "id": 7, "body": "some answer text", "is_correct" : "false", "questionId": 2 },
+    { "id": 8, "body": "some answer text", "is_correct" : "true", "questionId": 2 },
+     { "id": 9, "body": "some answer text", "is_correct" : "false", "questionId": 3 },
+    { "id": 10, "body": "some answer text", "is_correct" : "false", "questionId": 3 },
+    { "id": 11, "body": "some answer text", "is_correct" : "false", "questionId": 3 },
+    { "id": 12, "body": "some answer text", "is_correct" : "true", "questionId": 3 }
+    
+  ],
+  "quiz": {
+    "name": "sample-quiz"
+  }
+}

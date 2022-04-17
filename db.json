@@ -1,25 +1,49 @@
 {
   "questions": [
-    { "id": 1, "text": "question text 1" },
-    { "id": 2, "text": "question text 2" },
-    { "id": 3, "text": "question text 3" }
+    { "id": 1, "text": "Kotlin was developed by?" },
+    { "id": 2, "text": "Which of following is used to handle null exceptions in Kotlin?" },
+	{ "id": 3, "text": "Which file extension is used to save Kotlin files." },
+	{ "id": 4, "text": "Which of the followings constructors are available in Kotlin?" },
+	{ "id": 5, "text": "What is an immutable variable?" },
+    { "id": 6, "text": "What is correct way to create an arraylist in Kotlin?" },
+    { "id": 7, "text": "Which of the following is not the basic data types in Kotlin?" },
+	{ "id": 8, "text": "Can we execute Kotlin code without JVM?" },
+    { "id": 9, "text": "How do you get the length of a string in Kotlin?" },
+    { "id": 10, "text": "All classes in Kotlin classes are by default?" }
   ],
   "answers": [
-    { "id": 1, "body": "some answer text", "is_correct" : "false", "questionId": 1 },
-    { "id": 2, "body": "some answer text", "is_correct" : "false", "questionId": 1 },
-    { "id": 3, "body": "some answer text", "is_correct" : "false", "questionId": 1 },
-    { "id": 4, "body": "some answer text", "is_correct" : "true", "questionId": 1 },
-     { "id": 5, "body": "some answer text", "is_correct" : "false", "questionId": 2 },
-    { "id": 6, "body": "some answer text", "is_correct" : "false", "questionId": 2 },
-    { "id": 7, "body": "some answer text", "is_correct" : "false", "questionId": 2 },
-    { "id": 8, "body": "some answer text", "is_correct" : "true", "questionId": 2 },
-     { "id": 9, "body": "some answer text", "is_correct" : "false", "questionId": 3 },
-    { "id": 10, "body": "some answer text", "is_correct" : "false", "questionId": 3 },
-    { "id": 11, "body": "some answer text", "is_correct" : "false", "questionId": 3 },
-    { "id": 12, "body": "some answer text", "is_correct" : "true", "questionId": 3 }
-    
+    { "id": 1, "body": "Google", "is_correct" : "false", "questionId": 1 },
+    { "id": 2, "body": "JetBrains", "is_correct" : "true", "questionId": 1 },
+    { "id": 3, "body": "Microsoft", "is_correct" : "false", "questionId": 1 },
+    { "id": 4, "body": "Elvis Operator", "is_correct" : "true", "questionId": 2 },
+    { "id": 5, "body": "Sealed Class", "is_correct" : "false", "questionId": 2 },
+    { "id": 6, "body": "Lambda function", "is_correct" : "false", "questionId": 2 },
+    { "id": 7, "body": ".java", "is_correct" : "false", "questionId": 3 },
+    { "id": 8, "body": ".kot", "is_correct" : "false", "questionId": 3 },
+    { "id": 9, "body": ".kt or .kts", "is_correct" : "true", "questionId": 3 },
+    { "id": 10, "body": "Primary constructor", "is_correct" : "false", "questionId": 4 },
+    { "id": 11, "body": "Secondary constructor", "is_correct" : "false", "questionId": 4 },
+    { "id": 12, "body": "All of the above", "is_correct" : "true", "questionId": 4 },
+	{ "id": 13, "body": "A variable that cannot change, read-only", "is_correct" : "true", "questionId": 5 },
+    { "id": 14, "body": "A variable that can be changed", "is_correct" : "false", "questionId": 5 },
+    { "id": 15, "body": "A variable used for string interpolation", "is_correct" : "false", "questionId": 5 },
+    { "id": 16, "body": "enum class Color {RED, GREEN, BLUE}", "is_correct" : "false", "questionId": 6 },
+    { "id": 17, "body": "val list = arrayListOf(1, 2, 3)", "is_correct" : "true", "questionId": 6 },
+    { "id": 18, "body": "val set = hashSetOf(1, 2, 3)", "is_correct" : "false", "questionId": 6 },
+    { "id": 19, "body": "Numbers", "is_correct" : "false", "questionId": 7 },
+	{ "id": 20, "body": "Strings", "is_correct" : "false", "questionId": 7 },
+    { "id": 21, "body": "Lists", "is_correct" : "true", "questionId": 7 },
+    { "id": 22, "body": "Yes", "is_correct" : "true", "questionId": 8 },
+    { "id": 23, "body": "No", "is_correct" : "false", "questionId": 8 },
+    { "id": 24, "body": "None of the above", "is_correct" : "false", "questionId": 8 },
+    { "id": 25, "body": "str.size", "is_correct" : "true", "questionId": 9 },
+    { "id": 26, "body": "length(str)", "is_correct" : "false", "questionId": 9 },
+    { "id": 27, "body": "str.lengthOf", "is_correct" : "false", "questionId": 9 },
+    { "id": 28, "body": "public", "is_correct" : "false", "questionId": 10 },
+    { "id": 29, "body": "final", "is_correct" : "true", "questionId": 10 },
+    { "id": 30, "body": "sealed", "is_correct" : "false", "questionId": 10 }
   ],
-  "quiz": {
-    "name": "sample-quiz"
+  "profile": {
+    "name": "team3Quiz"
   }
 }
