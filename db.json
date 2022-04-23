@@ -43,6 +43,18 @@
     { "id": 29, "answer": "final", "is_correct" : "true", "qId": 10 },
     { "id": 30, "answer": "sealed", "is_correct" : "false", "qId": 10 }
   ],
+  "samplequestions": [
+    { "id": 1, "question": "Kotlin was developed by?", "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3 },
+    { "id": 2, "question": "Which of following is used to handle null exceptions in Kotlin?" , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 3, "question": "Which file extension is used to save Kotlin files." , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 4, "question": "Which of the followings constructors are available in Kotlin?", "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 5, "question": "What is an immutable variable?" , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 6, "question": "What is correct way to create an arraylist in Kotlin?", "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 7, "question": "Which of the following is not the basic data types in Kotlin?", "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 8, "question": "Can we execute Kotlin code without JVM?" , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 9, "question": "How do you get the length of a string in Kotlin?" , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
+    { "id": 10, "question": "All classes in Kotlin classes are by default?" , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3 }
+  ],
   "profile": {
     "name": "team3Quiz"
   }
