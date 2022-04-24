@@ -94,14 +94,6 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tv_id"
-            android:text="text1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_marginStart="10dp"/>
-
-        <TextView
             android:id="@+id/tv_text"
             android:text="text1"
             android:layout_width="wrap_content"

@@ -5,9 +5,6 @@ import retrofit2.http.GET
 
 interface QuizService {
 
-    @GET("questions")
-    fun ApiQuestion(): Call<List<QuizData>>
-
-    @GET("answers")
+    @GET("samplequestions")
     fun ApiAnswers(): Call<List<QuizAnswerData>>
 }

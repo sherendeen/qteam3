@@ -10,6 +10,7 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.android.example.quizapp.api.QuizAnswerData
 import com.android.example.quizapp.databinding.ActivityMainBinding
 import com.android.example.quizapp.databinding.ActivityQuizQuestionsBinding
 
@@ -59,7 +60,6 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             tvProgress.text = "$mCurrentPosition" + "/" + progressBar.max
 
             tvQuestion.text = question!!.question
-            ivImage.setImageResource(question.image)
             tvOptionOne.text = question.optionOne
             tvOptionTwo.text = question.optionTwo
             tvOptionThree.text = question.optionThree

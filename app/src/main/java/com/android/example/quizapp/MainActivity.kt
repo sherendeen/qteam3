@@ -9,7 +9,6 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import com.android.example.quizapp.api.QuizAnswerData
-import com.android.example.quizapp.api.QuizData
 import com.android.example.quizapp.api.QuizService
 import com.android.example.quizapp.databinding.ActivityMainBinding
 import retrofit2.Call
@@ -57,30 +56,6 @@ class MainActivity : AppCompatActivity() {
 
         val service = retrofit.create(QuizService::class.java)
 
-        val callQuestion: Call<List<QuizData>> = service.ApiQuestion()
-        callQuestion.enqueue(object: Callback<List<QuizData>>{
-            override fun onResponse(
-                call: Call<List<QuizData>>,
-                response: Response<List<QuizData>>
-            ) {
-                val results = response.body()
-                if (results != null) {
-                    Log.i(TAG, results.toString())
-                    for(i in results){
-                        var content:String = ""
-                        content += "ID: " + i.qId.toString() + "\n"
-                        content += "Text: " + i.question.toString() + "\n\n"
-                        binding.tvId.append(content)
-                    }
-                }
-
-            }
-            override fun onFailure(call: Call<List<QuizData>>, t: Throwable) {
-                Log.e(TAG,"Fail")
-            }
-
-        })
-
         val callAnswer: Call<List<QuizAnswerData>> = service.ApiAnswers()
         callAnswer.enqueue(object: Callback<List<QuizAnswerData>>{
             override fun onResponse(
@@ -89,13 +64,20 @@ class MainActivity : AppCompatActivity() {
             ) {
                 val result = response.body()
                 if (result != null) {
-                    Log.i(TAG, result.toString())
                     for (i in result) {
                         var content: String = ""
                         content += "ID: " + i.id.toString() + "\n"
-                        content += "Text: " + i.body.toString() + "\n"
-                        content += "isCorrect: " + i.isCorrect.toString() + "\n"
-                        content += "GroupId: " + i.group.toString() + "\n\n"
+                        content += "Question: " + i.body.toString() + "\n"
+                        content += "Option1: " + i.optionOne.toString() + "\n"
+                        content += "Option2: " + i.optionTwo.toString() + "\n"
+                        content += "Option3: " + i.optionThree.toString() + "\n"
+                        content += "Option4: " + i.optionFour.toString() + "\n"
+                        content += "Answer: " + i.correctAnswer.toString() + "\n\n"
+
+                        // Add each question to the myCommonData
+                        myCommonData.addElement(Question(i.id, i.body, i.optionOne, i.optionTwo,
+                            i.optionThree, i.optionFour, i.correctAnswer))
+
                         binding.tvText.append(content)
                     }
                 }
