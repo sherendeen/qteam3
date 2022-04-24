@@ -44,7 +44,7 @@
     { "id": 30, "answer": "sealed", "is_correct" : "false", "qId": 10 }
   ],
   "samplequestions": [
-    { "id": 1, "question": "Kotlin was developed by?", "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3 },
+    { "id": 1, "question": "Kotlin was developed by?", "optionOne" : "FACEBOOK" , "optionTwo" : "GOOGLE", "optionThree": "JetBrains", "optionFour" : "AMAZON", "correctAnswer" : 3 },
     { "id": 2, "question": "Which of following is used to handle null exceptions in Kotlin?" , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
     { "id": 3, "question": "Which file extension is used to save Kotlin files." , "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
     { "id": 4, "question": "Which of the followings constructors are available in Kotlin?", "optionOne" : "1" , "optionTwo" : "2", "optionThree": "3", "optionFour" : "4", "correctAnswer" : 3  },
