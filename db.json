@@ -1,6 +1,6 @@
 {
   "samplequestions": [
-    { "id": 1, "question": "Kotlin was developed by?", "optionOne" : "FACEBOOK" , "optionTwo" : "GOOGLE", "optionThree": "JetBrains", "optionFour" : "AMAZON", "correctAnswer" : 3 },
+    { "id": 1, "question": "Kotlin was developed by?", "optionOne" : "Facebook" , "optionTwo" : "Google", "optionThree": "JetBrains", "optionFour" : "Amazon", "correctAnswer" : 3 },
     { "id": 2, "question": "Which of following is used to handle null exceptions in Kotlin?" , "optionOne" : "if statement" , "optionTwo" : "Elvis Operator", "optionThree": "for loop", "optionFour" : "When", "correctAnswer" : 2  },
     { "id": 3, "question": "Which file extension is used to save Kotlin files." , "optionOne" : "kt extension" , "optionTwo" : "html", "optionThree": "SDK", "optionFour" : "javac", "correctAnswer" : 1  },
     { "id": 4, "question": "Which of the followings constructors are available in Kotlin?", "optionOne" : "Primary constructor" , "optionTwo" : "Init constructor", "optionThree": "Inner class", "optionFour" : "All above", "correctAnswer" : 1  },
